@@ -1,0 +1,79 @@
+h1{
+    text-align: center; /*El text-aling se usa para mover el texto a donde quieras en mi caso al centro*/
+    font-family:Arial, Helvetica, sans-serif;/*font-family cambia la tipografia de la letra*/
+    background-color: rgb(41, 47, 54);/*se cambia de color el fondo, en mi caso el fondo de h1 */
+    border-style:solid;/*border-style se le agrega un borde*/
+    border-radius: 50px;/*se le agrega un radio o rango al borde (cuantos pixeles usara)*/
+}
+ol{
+    font-family:Arial, Helvetica, sans-serif
+}
+body{
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #771c1cfd, #ff060685);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#1b0808c0, #201111b6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.text{
+    background-image: url(xdlol.jpg);
+    height: 800px;
+    background-size: cover;
+    text-align: center;
+    color: darkblue;
+}
+a{
+    font-size:50px;
+}
+li{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;/*color sirve para cambiar de color las letras*/
+}
+.ventanas{
+    text-align: center;
+}
+.desarrollo{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parrafo2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: snow;
+}
+.parrafo3{
+    text-align: center;
+    font-size: 50px;
+}
+.formulario{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    resize: none;
+    text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+.page-item {
+  margin: 0 2px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Esto centra verticalmente si lo deseas */
+ }
