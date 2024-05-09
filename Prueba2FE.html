@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ayuda.css"><!--llamamos a una archivo -->
+    <title>Prueba N°1 Html Y Css</title> <!--AQUI AGREGAMOS TITULO-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>                                         <!--este es el body -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="sigmamale.png" alt="" width="100px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://cdn.7tv.app/emote/60afbe0599923bbe7fe9bae1/4x.webp">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://cdn.7tv.app/emote/6218ad877cc2d4e1953802e9/4x.webp">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://cdn.7tv.app/emote/609f3ecbb55466cf07654488/4x.webp">Emote god</a></li>
+                  <li><a class="dropdown-item" href="https://cdn.7tv.app/emote/637e55ea4e30a9ca363033f1/3x.webp">Emote rico</a></li>
+                  <li><a class="dropdown-item" href="https://youtu.be/yGGQsrpNef4?si=jJC6uT4xLdaLU3_D">momo</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <hr>
+    <p class="text"></p><!--ESTE PARRAFO ESTA DE EJEMPLO PARA PONER UN IMAGEN COMO BG-->
+    <br>
+    <hr>
+    <br>
+    <div class="desarrollo">
+        <p>¿Que es el desarrollo de Software</p>
+    </div>
+    <div class="parrafo2">
+        <p>El desarrollo de software es el proceso de crear y diseñar programas o aplicaciones informáticas mediante la escritura de código, diseño, pruebas y mantenimiento. Este proceso implica una serie de pasos e instrucciones que los desarrolladores siguen para crear software funcional y de alta calidad. Se trata de todos los procesos involucrados para el desarrollo, desde el origen, la producción, revisión, la entrega y posterior mantenimiento.
+
+            El software es un conjunto de reglas o programas que le indican a la computadora qué acciones realizar. Permite que las computadoras sean programables.
+            
+            La gran importancia y relevancia del desarrollo de software se debe a que cada vez más empresas, de todos los tamaños, han comenzado a utilizar softwares empresariales para buscar una mayor eficiencia en diferentes áreas del trabajo. Les permite administrar datos de clientes, gestionar emails, aspectos del trabajo y muchos más.
+            
+            A continuación, explicaremos cómo funciona el desarrollo y creación del software y mencionaremos ejemplos de este para entender cómo el manejo de software se aplica en la diaria en diferentes ámbitos.</p> 
+    </div>
+    <br>
+    <hr>
+    <p class="parrafo3">Ejemplos de Tipos de Funcionamientos</p> <!--P es para los parrafos-->
+    <hr>
+    <br>
+    <ol><!--ol Lista ordenada-->
+        <li>Requisitos</li><!--li es una lista-->
+        <li>Diseño</li>
+        <li>Implementación</li>
+        <li>Pruebas</li>
+        <li>Despliegue</li>
+        <li>Mantenimiento</li>
+    </ol>
+    <br><br>
+    <div class="ventanas"><!--encapsulamos los datos para despues llamarlos en css-->
+    <a  target="_blank" href="https://www.youtube.com/live/CfbAgtXoQvI?si=G3T4NhS4r1ig1eYi">Video Informativo</a> <!--SE USA PARA HIPERVINCULOS ESTAS SON UTILIZADAS 
+                                                                                     CON href para poder ir a otra pagina d-->
+                                                                                     <br>
+    <a target="_blank"  href="https://www.starkcloud.com/starkcloud-blog/cloud/que-es-el-desarrollo-de-software">¿Quieres Aprender mas?</a>
+    <br><br>
+
+    <img  class="desarrollo" src="desarrolloSoftware.jpeg" width="1200xp"  > <!--Con img puedes poner imagenes, con src llamas a la imagen (esta debe estar en la misma carpeta)-->
+    </div>
+    <br><br>
+    <p class="formulario">¿Que tal te parecio esta pagina?Si tienes alguna duda o comentario no dudes en comentar en nuestra cajita de comentarios!!!</p>
+    <form action="/Formularioxddd" method="post">
+        <label for="Nombre Insano">NOMBRE  : </label><!-- label crea una interfaz ejemplo un rectangulo -->
+        <input type="text" id="nomber insano" name="Nombre " placeholder="Nombre " /><!--input sirve para que necesitas su llamado ejemplo lo llamamos para darle la opcion text al label de arriba-->
+        <br> <br>
+        <label for="Apellido "> Apellido  : </label>
+        <input type="text" id="Apellidoinsano" name="Apellido Insano" placeholder="Apellido "> <!--type tipo de texto, radio , etc , placeholder el nombre que tendra adentro-->
+        <br> <br> <br>
+        <label for="comentario">comentario:</label>
+        <br>
+        <textarea cols="50" rows="10" id="Comentario" placeholder="Ingrese comentario" name="comentario"></textarea><!-- textarea para generar un cuadro de comentarios . cols ancho rosw el largo-->
+        <br>
+        <BUtton type="reset">Enviar</BUtton> <!--button es el boton , type el tipo de accion que necesites ejemplo reset borra toda la informacion que pusiste en el cuadro-->
+        
+        <div class="row">
+            <div class="col-4">
+              <div id="list-example" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+              </div>
+            </div>
+            <div class="col-8">
+              <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                <h4 id="list-item-1">Item 1</h4>
+                <p>La Razón Detrás de la Ausencia de Clases en las Tardes: Un Entendimiento Profundo
+                    Hubo un momento en el que me encontré desconcertado por una afirmación que un amigo me hizo: "No hay clases en la tarde". Inicialmente, esta declaración me dejó perplejo, y me encontré reflexionando sobre ella con escepticismo. Sin embargo, a medida que profundicé en la cuestión y mi amigo me brindó una explicación más detallada, mi comprensión se amplió y llegué a apreciar la lógica detrás de esta práctica.</p>
+                <h4 id="list-item-2">Item 2</h4>
+                <p>La Importancia del Contexto
+                    Para comprender completamente por qué no hay clases en la tarde, es crucial considerar el contexto en el que esta afirmación se aplica. En muchas instituciones educativas, especialmente en los niveles de primaria y secundaria, el horario de clases se estructura de manera que las lecciones se concentran principalmente en la mañana y en la primera parte de la tarde. Este diseño tiene fundamentos pedagógicos sólidos que se basan en la capacidad de atención y el ritmo natural del aprendizaje de los estudiantes.
+                    
+                    Ritmo Circadiano y Concentración
+                    Uno de los factores clave que influyen en la decisión de programar clases en la mañana y evitarlas en la tarde es el ritmo circadiano humano. Nuestros cuerpos tienen un reloj biológico interno que regula nuestros patrones de sueño y vigilia, y este ritmo varía a lo largo del día. Por lo general, la mañana es el momento en el que estamos más alerta y concentrados, mientras que la tarde tiende a ser un período de menor energía y fatiga mental para muchas personas, especialmente para los jóvenes estudiantes.</p>
+                <h4 id="list-item-3">Item 3</h4>
+                <p>Al programar las clases en la mañana, se aprovecha el período del día en el que los estudiantes están más receptivos y tienen una mayor capacidad para retener información. Esto maximiza el tiempo de aprendizaje efectivo y mejora la eficiencia del proceso educativo en su conjunto.
+
+                    Consideraciones Logísticas y Extraescolares
+                    Además de las consideraciones relacionadas con el rendimiento académico, también existen aspectos logísticos y prácticos que influyen en la programación de clases. Muchos estudiantes participan en actividades extracurriculares, como deportes, música o tutorías, que suelen tener lugar por las tardes. Al evitar programar clases durante este período, se les brinda a los estudiantes la oportunidad de participar en estas actividades sin interferencias, promoviendo así un desarrollo integral y equilibrado.
+                    
+                    Asimismo, la programación de clases en la mañana puede facilitar el transporte de los estudiantes, especialmente en áreas donde el acceso a la escuela puede ser un desafío. Evitar las horas pico de tráfico al final del día contribuye a una experiencia escolar más fluida y menos estresante para todos los involucrados.
+                    
+                    Adaptabilidad y Flexibilidad
+                    Si bien la ausencia de clases en la tarde puede parecer una limitación en un principio, también es importante reconocer la flexibilidad inherente a este enfoque. Las instituciones educativas tienen la capacidad de ajustar sus horarios según las necesidades específicas de los estudiantes y las circunstancias cambiantes. Además, con el avance de la tecnología, cada vez más recursos educativos están disponibles fuera del aula, lo que permite a los estudiantes continuar aprendiendo y explorando incluso después de la jornada escolar oficial.</p>
+                <h4 id="list-item-4">Item 4</h4>
+                <p>Conclusión
+                    En conclusión, ahora entiendo claramente por qué no hay clases en la tarde. Esta práctica se basa en una combinación de factores, que van desde consideraciones biológicas y pedagógicas hasta logísticas y extracurriculares. Al comprender el razonamiento detrás de esta decisión, puedo apreciar mejor cómo se diseñan los horarios escolares para maximizar el aprendizaje y apoyar el desarrollo integral de los estudiantes.
+                    
+                    La comprensión es un proceso continuo, y estoy agradecido por la oportunidad de haber explorado este tema con más profundidad. Ahora estoy más equipado para participar en conversaciones sobre la organización de la educación y contribuir de manera significativa a la mejora de las prácticas educativas en mi comunidad y más allá.
+                    </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card" style="width: 18rem;">
+              <img src="malvavisco.png"  class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MI GATO</h5>
+                <p class="card-text">ES MI GATO SE LLAMA MALVAVISCO TIENE 16 AÑOS</p>
+                <a href="https://youtube.com/shorts/RSzQ0cT_tEY?si=zp7SyBpi86JdqrCz" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          
+
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="https://youtu.be/xk4_1vDrzzo?si=L9XLqu_ih2drQkqF">1</a></li>
+              <li class="page-item"><a class="page-link" href="https://media.discordapp.net/attachments/1235730361300811806/1237950698189099050/20240504_225514.jpg?ex=663d82ee&is=663c316e&hm=fe075509b08811744e083b74e3df071cd4a64406731752cc51b916a2b88644fb&=&format=webp&width=685&height=662">2</a></li>
+              <li class="page-item"><a class="page-link" href="https://www.youtube.com/@BroCodez">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>  
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
